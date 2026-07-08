@@ -8,12 +8,12 @@ public class Main {
         User userTom = new User("Tom", "Cruise", address);
 
         System.out.printf("%s lives at the following address: ", userTom.getName());
-        System.out.println(userTom.getAddress().printAddress());
+        System.out.println(userTom.getAddress().formatAddress());
 
         Address newAddress = new Address("Shevchenko", 3, 8);
         userTom.setAddress(newAddress);
 
         System.out.printf("%s lives at the following address: ", userTom.getName());
-        System.out.println(userTom.getAddress().printAddress());
+        System.out.println(userTom.getAddress().formatAddress());
     }
 }

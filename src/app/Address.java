@@ -36,7 +36,7 @@ public class Address {
         this.apartment = apartment;
     }
 
-    public String printAddress() {
+    public String formatAddress() {
         return String.format("street %s, building %d, apartment %d", street, building, apartment);
     }
 }
